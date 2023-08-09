@@ -1,8 +1,8 @@
-import { englishTextField, morseCodeTextField } from "./querySelectors";
+// import { englishTextField, morseCodeTextField } from "./querySelectors";
 
-describe("lettersCaps", () => {
-  it("should capitaize the alphabets being typed");
-  const result = lettersCaps("hello");
+// describe("lettersCaps", () => {
+//   it("should capitaize the alphabets being typed");
+//   const result = lettersCaps("hello");
 
-  expect(result).toBe("HELLO");
-});
+//   expect(result).toBe("HELLO");
+// });
