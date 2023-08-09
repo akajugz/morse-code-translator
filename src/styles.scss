@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: rgb(183, 183, 183);
 }
 
 .heading {
@@ -12,12 +13,14 @@
 }
 
 .english-container {
-  border: 2px solid red;
+  border: 2px solid Black;
   border-radius: 10px;
   width: 80%;
   height: 100px;
   background-color: beige;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -25,17 +28,19 @@
   &__heading {
     margin-top: 10px;
     margin-left: 5px;
+    background-color: beige;
   }
 
   &__text-field {
     width: 70%;
     height: 80%;
     margin: 10px;
+    background-color: white;
   }
 }
 
 .morse-code-container {
-  border: 2px solid red;
+  border: 2px solid black;
   border-radius: 10px;
   width: 80%;
   height: 100px;
@@ -47,11 +52,26 @@
   &__heading {
     margin-top: 10px;
     margin-left: 5px;
+    background-color: beige;
   }
 
   &__text-field {
     width: 110%;
     height: 80%;
     margin: 10px;
+    background-color: white;
+  }
+}
+
+.morse-code-key {
+  width: 80%;
+  height: 300px;
+  margin: 10px 30px 10px 40px;
+  display: flex;
+  justify-content: center;
+
+  &__image {
+    width: 70%;
+    height: 300px;
   }
 }
